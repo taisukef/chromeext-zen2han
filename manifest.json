@@ -1,0 +1,10 @@
+{
+  "name": "zen2han",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "zenkaku alphabets and numbers to hankaku",
+  "content_scripts": [{
+    "matches": ["*://akizukidenshi.com/*"],
+    "js": ["content.js"]
+  }]
+}
